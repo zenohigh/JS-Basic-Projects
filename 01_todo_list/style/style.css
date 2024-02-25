@@ -34,50 +34,6 @@ body{
     color: rgba(27, 130, 120, 1);
 }
 
-#links-toggle:hover{
-    cursor: pointer;
-    color: antiquewhite;
-}
-
-ul{
-    list-style: none;
-}
-
-.cont-nav-links{
-    height: 0;
-    transition: all 1s ease;
-    overflow: hidden;
-
-}
-
-.nav-links{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.nav-link a{
-    display: block;
-    text-decoration: none;
-    font-size: 1.3em;
-    color: white;
-    text-transform: uppercase;
-    background-color: tomato;
-    text-align: center;
-    padding: 5px 0;
-    opacity: 0.5;
-}
-
-.nav-link a:hover{
-    opacity: 1;
-}
-
-.show-links{
-    height: 150px;
-}
-
-
 /* responsive */
 
 @media screen and (min-width: 600px) {
@@ -87,3 +43,47 @@ ul{
     .nav-link a{margin: 0 10px;}
     .cont-navbar{display: flex; align-items: center; justify-content: center;}
   }
+
+
+#wapp-title{
+    text-align: center;
+    margin: 15px;   
+}
+
+.cont-input{
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cont-input input{
+    border: 3px solid rgb(136, 91, 152);
+    border-radius: 2px 20px 2px 20px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.cont-input #btn-form{
+    padding: 10px 30px;
+    border: 3px solid rgb(136, 91, 152);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color: #ffffff;
+    border-radius: 20px 2px 20px 2px;
+}
+
+/* cont task */
+
+.cont-tasks{
+    border: 1px solid white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.cont-task{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
